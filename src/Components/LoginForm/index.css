@@ -1,0 +1,153 @@
+
+body{
+  padding: 0px;
+  margin: 0px;
+  perspective: 1200px;
+  perspective-origin: center center;
+}
+
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-color: #ffffff;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    background-color: #e2e8f0;
+
+    &:hover {
+    background: transparent;
+    color: #fffcfb;
+    transform: translate(-0px, -6px);
+    transition: all .25s linear;
+    box-shadow: 0px 8px 40px rgb(122, 211, 240);
+  }
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #475569;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  
+  .password-input-field {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  
+  .login-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+      background: #0b69ff;
+      color: #fffcfb;
+      transform: translate(-0px, -6px);
+      transition: all .25s linear;
+      box-shadow: inset 400px 0 0 0 rgb(122, 211, 240);
+    }
+  }
+  
+  .error-message {
+    align-self: start;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0b37;
+  }
+
+
+.logo-heading {
+  color: rgb(52, 97, 169);
+  font-family: 'Roboto';
+ }
+
+ .chatterblast-name {
+  color: rgb(122, 211, 240);
+  font-family: 'Roboto';
+ }
+
+ .slogan-msg {
+  color: rgb(193, 184, 157);
+  font-family: 'Roboto';
+  text-align: center;
+ }
+
+ .login-form-heading {
+  color: rgb(52, 97, 169);
+  font-family: 'Roboto';
+ }
+
+ .forgot-signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+ }
+
+ .singup-button {
+  border-width: 0px;
+  background-color: transparent;
+  color: #0b69ff;
+  padding-top: 30px;
+
+  &:hover {
+    color: #436192;
+    transform: translate(-0px, -6px);
+    transition: all .25s linear;
+  }
+ }

@@ -1,0 +1,75 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: end;
+  height: 93vh;
+  background-color: rgb(223, 223, 247);
+}
+
+.users-container {
+  height: 100%;
+  width: 28%;
+  text-align: center;
+  overflow: auto;
+  background-color: aliceblue;
+}
+
+.requests-container {
+  background-color: aliceblue;
+  height: 45%;
+  overflow: auto;
+}
+
+.users-list {
+  background-color: aliceblue;
+  height: 90vh;
+  overflow: auto;
+}
+
+.post-container {
+  padding-top: 80px;
+  width: 44%;
+  text-align: center;
+  box-shadow: 0px 8px 40px rgba(79, 78, 78, 0.08);
+  height: 100%;
+}
+
+.users-container::-webkit-scrollbar,
+.post-container::-webkit-scrollbar,
+.settings::-webkit-scrollbar,
+.home-container::-webkit-scrollbar,
+.users-list::-webkit-scrollbar,
+.requests-container::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar width */
+  height: 0; /* Remove scrollbar height */
+}
+
+.users-container::-webkit-scrollbar-track,
+.post-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Track color */
+}
+
+.users-container::-webkit-scrollbar-thumb,
+.post-container::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Handle color */
+}
+
+
+.home-side-heading {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.settings {
+  width: 28%;
+  text-align: center;
+  height: 100%;
+}
+
+.users-list {
+  list-style-type: none;
+}
+
